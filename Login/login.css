@@ -1,0 +1,57 @@
+body{
+    background-image: url("back.jpg.png");
+    backface-visibility: visible;
+    background-size: auto;
+    
+}
+
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: thistle;
+    border-style: groove;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+  }
+h1{
+    text-align: center;
+    position: relative;
+
+}
+.box {
+    height: auto;
+    width: auto;
+    padding: 100px;
+    border-color: black;
+    
+}
+span.psw {
+    padding-top: 100px;
+    color: black;
+    width: auto;
+  }
+button {
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 18px;
+    margin: 4px 0;
+    border: black;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    width: 10%;
+  }
+  button:hover {
+    opacity: 0.8;
+    color: brown;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: transparent;
+    color: black;
+  }
